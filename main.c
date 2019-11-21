@@ -34,7 +34,13 @@ int main()
     // printf("leng:%d\r\n",len);
     // uint outBuffLen = sizeof(outBuff)/sizeof(outBuff[0]);
     // printf("outBuffleng:%d\r\n",outBuffLen);
+    printf("============\r\n参数输入\r\n============\r\n");
+    printf("请输入R1/R2=");
+    scanf("%lf",&bili);
+    printf("请输入偏差范围[0.5,0):");
+    scanf("%lf",&deviation);
     printf("R1/R2=%.2f 偏差范围%.2f\r\n", bili, deviation);
+    printf("============\r\n结果\r\n============\r\n");
     printf("%-13s %-17s %-13s %-7s\n", "R1", "期望阻值", "R2", "偏差");
     for (uchar i = 0; i < len; i++){
         double data_JinSi = bili * resList[i];
@@ -62,6 +68,6 @@ int main()
             printf("%-13.1f %-13.1f %-13.1f %-7.2f\r\n", resList[i], data_JinSi, listMin, minGap);
         }
     }
-    printf("NED\r\n");
+    // printf("============\r\nEND\r\n============\r\n");
     return 0;
 }
