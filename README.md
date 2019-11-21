@@ -3,8 +3,8 @@
 用于一定比值的两个电阻的阻值
 ## 使用方法
 0.打开命令行工具<br>
-　windows：cmd  
-　linux：cnome终端
+　**windows：** cmd  
+　**linux：** cnome终端
 
 1.进入当前项目根目录   
 

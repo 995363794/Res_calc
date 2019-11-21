@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+# !/usr/bin/env bash
 echo $(uname)
 if [ $(uname) == "Linux" ];then
     rm test 
