@@ -1,0 +1,10 @@
+{
+    "files.eol": "\n",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    // "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
